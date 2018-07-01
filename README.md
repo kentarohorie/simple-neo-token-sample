@@ -10,6 +10,8 @@ https://github.com/CityOfZion/python-smart-contract-workshop#quickstart
 
 Then, create your token in your private network.
 
+以下のコマンドは当リポジトリのディレクトリ上で行うか、適宜pathを変えてください。
+
 0. Change TOKEN_ORNER value to your wallet script hash in yourcoin/token.py
 1. open wallet {neo-privnet.wallet path}
 2. build ./yourcoin-smartcontract.py test 0710 05 True False name []
