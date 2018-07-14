@@ -5,6 +5,9 @@ This is a simple template of just creating your NEO token.
 
 # Usage
 
+そもそものブロックチェーンについては[こちら](https://book.ethereum-jp.net/what_is_ethereum/blockchainrev_md.html)のEthereumドキュメントがよくまとまっています。
+また、[こちら](https://github.com/kentarohorie/blockchain.rb)で簡易なブロックチェーンを作りながら学べます
+
 Firstly, you should make neo-python environment.
 https://github.com/CityOfZion/python-smart-contract-workshop#quickstart
 
