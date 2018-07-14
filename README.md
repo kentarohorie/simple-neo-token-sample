@@ -12,8 +12,13 @@ Then, create your token in your private network.
 
 以下のコマンドは当リポジトリのディレクトリ上で行うか、適宜pathを変えてください。
 
-0. Change TOKEN_ORNER value to your wallet script hash in yourcoin/token.py
-1. open wallet {neo-privnet.wallet path}
+0. open wallet {neo-privnet.wallet path}
+0. privnet.walletをopenを開きます。passwordは「coz」です
+1. Change TOKEN_ORNER value to your wallet script hash in yourcoin/token.py
+1. PULLしたディレクトリのyourcoin/token.pyの定数、TOKEN_ORNERをnp-prompt -v -pでneo-pythonにアクセスし、privnet.walletのscript hashを確認し、書き換えてください。
+
+以下コマンドを、当リポジトリのディレクトリ上で実行してください。
+
 2. build ./yourcoin-smartcontract.py test 0710 05 True False name []
 3. import contract yourcoin-smartcontract.avm 0710 05 True False // Lastly you need to input wallet password and wait a few minutes)
 4. testinvoke {contract hash} deploy [] // You need wallet password
