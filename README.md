@@ -11,7 +11,7 @@ https://github.com/CityOfZion/python-smart-contract-workshop#quickstart
 Then, create your token in your private network.
 
 以下のコマンドは当リポジトリのディレクトリ上で行うか、適宜pathを変えてください。
-また[こちら](wget https://s3.amazonaws.com/neo-experiments/neo-privnet.wallet)からneo-privnet.walletを当リポジトリのwalletsディレクトリにダウンロードしてください。
+また [こちら](https://s3.amazonaws.com/neo-experiments/neo-privnet.wallet)からneo-privnet.walletを当リポジトリのwalletsディレクトリにダウンロードしてください。
 
 0. open wallet {neo-privnet.wallet path}
 0. neo-privnet.walletをopenを開きます。passwordは「coz」です
